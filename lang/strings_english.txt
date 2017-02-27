@@ -1,0 +1,2 @@
+<?php
+$s_plugin_UsersMonitoringAjax_menu_tc_link = 'Users Monitoring';
