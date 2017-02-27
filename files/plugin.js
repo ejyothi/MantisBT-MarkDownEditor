@@ -34,8 +34,11 @@ var bugNoteMde = new SimpleMDE({
 				});
 
 // Note field in *View Issue* page
+/* This conflicts with the bugnote_text with id. so disabling it for the time being 
 var bugNoteViewMde = new SimpleMDE({ 
 					element: document.getElementsByName("bugnote_text")[0],
 					autoDownloadFontAwesome: false,
 					toolbar: ["bold", "italic", "heading", "|", "unordered-list", "ordered-list", "|", "quote", "code", "table", "|", "preview", "guide"],
 				});
+*/
+
