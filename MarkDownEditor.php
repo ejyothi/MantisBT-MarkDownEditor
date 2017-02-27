@@ -6,7 +6,7 @@ class MarkDownEditorPlugin extends MantisPlugin {
         $this->description = 'Enable MarkDown editor for various fields';
         $this->version     = '0.1';
         $this->requires    = array(
-						'MantisCore' => '2.0.0',
+						'MantisCore' => '2.1',
 						);
         $this->author      = 'Manilal K M';
         $this->contact     = 'manilal@ejyothi.com';
