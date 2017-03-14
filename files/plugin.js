@@ -2,6 +2,7 @@
 var descMde = new SimpleMDE({ 
 					element: document.getElementById("description"),
 					autoDownloadFontAwesome: false,
+					spellChecker: false,
 					toolbar: ["bold", "italic", "heading", "|", "unordered-list", "ordered-list", "|", "link", "image", "|", "quote", "code", "table", "|", "preview", "guide"],
 				});
 
@@ -9,6 +10,7 @@ var descMde = new SimpleMDE({
 var stepsMde = new SimpleMDE({ 
 					element: document.getElementById("steps_to_reproduce"),
 					autoDownloadFontAwesome: false,
+					spellChecker: false,
 					toolbar: ["bold", "italic", "heading", "|", "unordered-list", "ordered-list", "|", "link", "image", "|", "quote", "code", "table", "|", "preview", "guide"],
 				});
 
@@ -16,6 +18,7 @@ var stepsMde = new SimpleMDE({
 var addInfoMde = new SimpleMDE({ 
 					element: document.getElementById("additional_info"),
 					autoDownloadFontAwesome: false,
+					spellChecker: false,
 					toolbar: ["bold", "italic", "heading", "|", "unordered-list", "ordered-list", "|", "link", "image", "|", "quote", "code", "table", "|", "preview", "guide"],
 				});
 
@@ -23,6 +26,7 @@ var addInfoMde = new SimpleMDE({
 var addInfoUpdMde = new SimpleMDE({ 
 					element: document.getElementById("additional_information"),
 					autoDownloadFontAwesome: false,
+					spellChecker: false,
 					toolbar: ["bold", "italic", "heading", "|", "unordered-list", "ordered-list", "|", "link", "image", "|", "quote", "code", "table", "|", "preview", "guide"],
 				});
 
@@ -30,6 +34,7 @@ var addInfoUpdMde = new SimpleMDE({
 var bugNoteMde = new SimpleMDE({ 
 					element: document.getElementById("bugnote_text"),
 					autoDownloadFontAwesome: false,
+					spellChecker: false,
 					toolbar: ["bold", "italic", "heading", "|", "unordered-list", "ordered-list", "|", "link", "image", "|", "quote", "code", "table", "|", "preview", "guide"],
 				});
 
