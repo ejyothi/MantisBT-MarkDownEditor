@@ -15,12 +15,12 @@ class MarkDownEditorPlugin extends MantisPlugin {
 
     function hooks() {
         $hooks = array(
-				'EVENT_LAYOUT_BODY_END' => 'show_tagsinput',
+				'EVENT_LAYOUT_BODY_END' => 'show_simplemde',
                 );
         return $hooks;
     }
 
-	function show_tagsinput( $p_event, $p_bug_id )
+	function show_simplemde( $p_event, $p_bug_id )
 	{
 		print '<script type="text/javascript" src="' . plugin_file('simplemde.min.js').'"></script>';
 		print '<link type="text/css" href="'.plugin_file('simplemde.min.css').'" rel="stylesheet" />';
