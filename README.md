@@ -1,7 +1,7 @@
 Mantis MarkDownEditor
 ====================
 
-A MantisBT plugin to enable Bootstrap-Markdown Editor(https://github.com/toopay/bootstrap-markdown) on Description, Steps to Reproduce, Additional Information, and Notes fields.
+A MantisBT plugin to enable Bootstrap-Markdown Editor on Description, Steps to Reproduce, Additional Information, and Notes fields. The plugin will also auto-complete usernames mentioned in the above fields.
 
 Pre-requisites
 --------------
@@ -25,4 +25,5 @@ Bug Tracker
 Thanks to 
 ---------
 - MarkDown Editor - https://github.com/toopay/bootstrap-markdown (http://www.codingdrama.com/bootstrap-markdown)
-- Marked.js - https://github.com/chjj/marked 
+- Marked.js - https://github.com/chjj/marked
+- Textcomplete - https://github.com/yuku-t/textcomplete (https://yuku-t.com/textcomplete)

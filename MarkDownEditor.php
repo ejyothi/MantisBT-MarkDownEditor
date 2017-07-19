@@ -3,8 +3,8 @@ class MarkDownEditorPlugin extends MantisPlugin {
 
     function register() {
         $this->name        = 'MarkDown Editor';
-        $this->description = 'Enable Toopay Bootstrap-Markdown editor on textareas';
-        $this->version     = '0.2';
+        $this->description = 'Enable Bootstrap-Markdown editor on textareas';
+        $this->version     = '0.3';
         $this->requires    = array(
 						'MantisCore' => '2.3.0',
 						);
