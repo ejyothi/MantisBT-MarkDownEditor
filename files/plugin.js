@@ -35,7 +35,7 @@ var userStrategy = {
 			.fail([]);
 	},
 	replace: function (name) {
-			 return '$1@' + name;
+			 return '$1@' + name + ' ';
 	}
 };
 
