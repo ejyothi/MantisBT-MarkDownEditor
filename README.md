@@ -15,6 +15,11 @@ Installation Steps
 2. Rename the folder MantisBT-MarkDownEditor to MarkDownEditor
 3. Go to Manage-->Manage Plugins and install the plugin
 
+Caveats
+------------
+1. This plugin is not tested in Microsoft IE/Edge and Apple Safari.
+2. It's reported that Mozilla Firefox and Google Chrome freeze with the auto-complete feature. However, we couldn't reproduce it.
+
 Bug Tracker
 -----------
 - Plugin - https://github.com/ejyothi/MantisBT-MarkDownEditor/issues
