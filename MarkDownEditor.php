@@ -25,6 +25,7 @@ class MarkDownEditorPlugin extends MantisPlugin {
 		print '<script type="text/javascript" src="' . plugin_file('bootstrap-markdown.js').'"></script>';
 		print '<link type="text/css" href="'.plugin_file('bootstrap-markdown.min.css').'" rel="stylesheet" />';
 		print '<script type="text/javascript" src="' . plugin_file('marked.js').'"></script>';
+		print '<script type="text/javascript" src="' . plugin_file('textcomplete.js').'"></script>';
 		print '<script type="text/javascript" src="' . plugin_file('plugin.js').'"></script>';
 	}
 
