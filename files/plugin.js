@@ -27,7 +27,7 @@ $("#bugnote_text").markdown({
 var Textarea = Textcomplete.editors.Textarea;
 var userStrategy = {
 	id: 'user',
-	match: /(^|\s)@([a-z]{2,5})$/,
+	match: /(^|\s)@([a-z]{3,5})$/i,
 	//match: /^(?.*[a-z]{3})[a-z0-9]+$/i,
 	search: function (term, callback) {
 		$.getJSON('plugin.php?page=MarkDownEditor/search', {term: term} )
