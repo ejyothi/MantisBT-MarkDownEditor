@@ -3,6 +3,8 @@ Mantis MarkDownEditor
 
 A MantisBT plugin to enable Bootstrap-Markdown Editor on Description, Steps to Reproduce, Additional Information, and Notes fields. The plugin will also auto-complete usernames mentioned in the above fields.
 
+To auto-complete usernames in the above fields, type '@' followed by first 2-5 characters of the username.
+
 Pre-requisites
 --------------
 
